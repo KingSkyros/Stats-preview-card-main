@@ -97,6 +97,10 @@ span{
         flex-direction: row;
         max-width: 70rem; 
     } 
+
+    span{ 
+        display: inline;
+    }
     
     .text{ 
         max-width: 50%;
