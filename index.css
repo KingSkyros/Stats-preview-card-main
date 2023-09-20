@@ -14,7 +14,8 @@
 } 
 
 body{ 
-    background-color: var(--background-color); 
+    background-color: var(--background-color);  
+    font-family: 'Lexend Deca' , cursive;
 } 
 
 main{  
@@ -50,8 +51,7 @@ a{
 
 .words{ 
     color: hsla(0, 0%, 100%, 0.75); 
-    font-size: 1em; 
-    font-family:'Lexend Deca' , cursive; 
+    font-size: 1em;  
     font-weight: 400;
 }
 
@@ -64,14 +64,13 @@ h1{
 } 
 
 p{ 
-    font-family: 'Lexend Deca' , cursive; 
     font-weight: 400; 
     font-size: 1em; 
     text-align: center;  
     color: hsla(0, 0%, 100%, 0.75);
 } 
 
-.stats{ 
+ul{ 
     margin: 2em; 
     line-height: 3em;   
 }  
@@ -100,7 +99,7 @@ ul{
         max-width: 50%;
     }  
 
-    .stats{ 
+    ul{ 
         line-break: 5em; 
         display: flex; 
     } 
