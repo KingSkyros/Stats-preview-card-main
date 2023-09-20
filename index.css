@@ -24,16 +24,14 @@ main{
     max-width: 30rem;
     margin: 2rem auto; 
     padding-bottom: 5em; 
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
+    border-radius: 2em; 
+    overflow: hidden;
 } 
 
 img{
     display: flex; 
     max-width: 30rem;  
     mix-blend-mode: multiply;
-    border-top-right-radius: 2em; 
-    border-top-left-radius: 2em;
 }   
 
 .image{ 
