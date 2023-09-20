@@ -17,9 +17,11 @@
 <body>
 
   <main> 
-    <div class="image"> 
-        <img src="./images/image-header-mobile.jpg" alt="an image of people in an office working" >
-    </div>
+        <picture>
+          <source media="(max-width: 1170px)" srcset="./images/image-header-mobile.jpg"> 
+          <source media="(min-width: 1170px)" srcset="./images/image-header-desktop.jpg">
+          <img src="./images/image-header-mobile.jpg" alt="an image of people in an office working" >
+        </picture>
     <div class="text"> 
       <h1>Get <a>insights</a> that help your business grow.</h1>
 
