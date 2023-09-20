@@ -4,7 +4,7 @@
 
     --background-color: hsl(233, 47%, 7%); 
     --card-background: hsl(244, 38%, 16%);
-    --insight-color-img: hsl(277, 64%, 61%);
+    --insight-color-img: hsl(277, 64%, 61%); 
 } 
 
 *{ 
@@ -46,8 +46,14 @@ a{
     padding: 2em 4em; 
     display: flex; 
     flex-direction: column;
-}  
+} 
 
+.words{ 
+    color: hsla(0, 0%, 100%, 0.75); 
+    font-size: 120%; 
+    font-family:'Lexend Deca' , cursive; 
+    font-weight: 400;
+}
 
 h1{ 
     font-family: 'inter' , cursive; 
@@ -62,14 +68,20 @@ p{
     font-weight: 400; 
     font-size: 120%; 
     text-align: center;  
-    color: hsla(0, 0%, 100%, 0.75);;
+    color: hsla(0, 0%, 100%, 0.75);
 } 
 
 .stats{ 
     margin: 2em; 
-    line-height: 3em; 
-    
-} 
+    line-height: 3em;   
+}  
+
+ul{ 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center; 
+    list-style-type: none;
+}
 
 .digits{ 
     font-family: 'inter' , cursive; 
@@ -90,9 +102,15 @@ p{
 
     .stats{ 
         line-break: 5em; 
-        text-align: left;
         display: flex; 
     } 
+
+    ul{ 
+        display: flex; 
+        list-style-type: none; 
+        padding-left: 2em;  
+        flex-direction: row;
+    }
 
     picture{ 
         max-width: 50%;
