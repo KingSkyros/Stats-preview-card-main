@@ -96,6 +96,7 @@ span{
     main{ 
         flex-direction: row;
         max-width: 70rem; 
+        margin-top: 6rem;
     } 
 
     span{ 
